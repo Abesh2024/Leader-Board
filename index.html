@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1 style="margin: 0 0 2rem 25rem;" class="bounce">LEADERBOARD </h1>
+
+        <form onsubmit="addPlayer(event)" id="carts">
+
+                <!-- <label for="first-name"> First Name:- </label> -->
+                    <input id="first-name" name="first-name" type="text" placeholder="First Name" class="measure"/>
+
+
+                <!-- <label for="last-name"> Last Name:- </label> -->
+                    <input id="last-name" name="last-name" type="text" placeholder="Last Name" class="measure"/>
+
+
+                <!-- <label for="country">  Country:- </label> -->
+                    <input id="country" name="country" type="text" placeholder="Country" class="measure"/>
+
+
+                <!-- <label for="score"> Score:- </label> -->
+                    <input id="score" type="number" name="score" placeholder="Score" max="100" min="0" class="measure"/>
+
+                    <button type="submit" class="measure" style="background-color: aquamarine;">Add Player</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- <div id="added-carts">
+        
+    </div> -->
+    <div id="player-list">
+
+    </div>
+    </main>
+    <script src="https://kit.fontawesome.com/7dc29fb75e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
